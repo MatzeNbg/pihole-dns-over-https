@@ -3,3 +3,4 @@ sudo apt-get -y install nginx php7.0-fpm php7.0-cgi php7.0-xml php7.0-zip apache
 sudo systemctl disable lighttpd
 sudo systemctl enable php7.0-fpm
 sudo systemctl enable nginx
+wget https://raw.githubusercontent.com/MatzeNbg/pihole-dns-over-https/master/default
