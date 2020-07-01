@@ -3,3 +3,4 @@ tar -xvzf cloudflared-stable-linux-arm.tgz
 sudo cp ./cloudflared /usr/local/bin
 sudo chmod +x /usr/local/bin/cloudflared
 cloudflared -v
+sudo useradd -s /usr/sbin/nologin -r -M cloudflared
